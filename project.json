@@ -67,6 +67,12 @@
       "uniqueId": "65f7e64b-51c7-4406-a282-0ca22c7e8b72",
       "input": [],
       "output": []
+    },
+    {
+      "filePath": "Test_IS_O365_bis.xaml",
+      "uniqueId": "8c2a7bcb-1d19-4e02-ae1c-0c755363624d",
+      "input": [],
+      "output": []
     }
   ],
   "isTemplate": false,

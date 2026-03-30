@@ -93,7 +93,7 @@
       <AssemblyReference>CCD3D5A832B_openminu.Aj1vg1UCC9G11rmhV4oDooX1</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="980.0000000000001,1464" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="980.0000000000001,1516" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uiascb:openminus_signclose" Name="result" />
     </Sequence.Variables>
@@ -102,11 +102,16 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACqVU227aQBD9FbTPxsEkrRokHsCkKU1SLC5ppSqKNusBNqx33b3QUOR/76xtCEloXiq/eOd+ZubMlnzmIFITK2kpl6BJZ0smQDVb0gcBlZJ0ft4F5As1M8nnHNLpJgcUWu0gIEOZO7u325JvNAPSISm1QAIy4CYXdPNKCIZpnluuJAqnS2jUCh8YJcZqLhf4nihtRzr1VUXebU6dsLdUOG/VbrU/NltRs3WOlmP45biGdFdVWdC1YrROklC7RLOhuQG7VGlCNVZkfWBvXwT7uo1VbGWmnK1Q+br+yXQUXx0FULk17M7vHSTtN0h6veS6isoXGHBb/DceHNfI2aOD+crtvcpBNplQ5u2ILsE2xsCUTt/gfIY14z5/OJQWFrosaQJ6zRmEPWb5mlsOJpx8v5C2+o3jwengQ+/Tabtf5s64dObeoy2LCPtOpgLCI6qgccw37D1G60U0i+PzyyjS2fL2TA2U+hEFjVvQBuvpRmHLf+iPjXYauhKc1VQEjcQ9CM6uYDNVK5Bd6YSoFwiMJZ05FZgW3yZXEhv0jwFU7S1HgB0ttXtGmBuk0i7Agaq4w8kecihWWY4BkWjPbDKWSgb7geLstqQGhWlLWJgV+SqBWaURB4qZwwXMmgwEclgheZu5EpuFklyhcT2UTT29S0Cec4aKUQ7V+FA6BtxVWAPBGj1Owf9AuvM8thwxZUvAlqiVy8tN9qUWO3lfq98G9NBCVssTzTOqN1hwfVASylZ0AYfg2mcv0dV5kwpMWKLZKw8dT0u/0cMjat5Z6Mqg1rxgwdFW4NGzNq8o5kNdTFFUUq9DTp7dT7aHV6M42fpzVqDpNZULhxDRfO6vwg19SvA5wdbiHWi1yqPa10BXeCXiJVr7JtYbODRjhwTKIBYcpJ2ZMlC1JlN4sn3hc/pWFn8BaO70nsYFAAA=" ConnectionId="448bb8eb-7c82-41fb-9fe5-d9cd3d5a832b" DisplayName="Get Record 1" sap:VirtualizedContainerService.HintSize="416,288.8" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="1b90ffe2-f109-3a93-9246-7ad34e378981">
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACrVUW2/aMBT+K8jPkBLaTSsSDxC6jrUdEYRu0lRVrnMAF8fOfGFliP++4yRQWlilaZryEp/r953bmnzkIFITKWkpl6BJe03GQDWb0wcBpZK0v9/VySdqJpJPOaTJKgcUWu2gTgYyd3ZntyZfaAakTVJqgdRJn5tc0NUrIRimeW65kihM5lCrFD4wSozVXM7wPVbaDnXqUYXebUqdsLdUOG/VarbeN5pho3mOliP44biGdIuqAHStGK2SxNTO0WxgbsDOVRpTjYisD+ztN/UdbmMVW5iEswXo1gGBcTKMro4yKP1qtnB8m0rrgEq3G1+XUfkMA643/4nQIZ9XqP+e1z/ixLkaOnt0gj5ze69ykA0mlDmcpUuwtREwpdMD3M8wJ9znDwbSwkwXkMagl5xB0GWWL7nlYILx1wtpy98o6p/233U/nLZ6Re6MS2fufVcKEEHPyVRAcERVrx3zDbqP4XIWTqLo/DIMdTa/PVN9pb6F9dotaIN4OmHQ9B/640A4DR0Jzmoq6rXYPQjOrmCVqAXIjnRCVAUHY0l7SgWmxbfJlcQC/aEBZXmLFmBFC+1udc0N7vw2wJ5qc4cTuL/skcpyDIgX4XntjaWSwa6h2Ls1qUhh2oIWZsXDIoFZpZEHipnDgcoaDAQeG4VXppErsZopyRUaV01ZVd27BDxInKFimEPZPpSOAGcPlkAQo+cp+C9It57HhiOibA5YErVwebFxHupmK+9p9dOAHljIKnmseUb1CgFXly+mbEFnsE+udfaSXZU3LskEBZud8oVj4Td8eETNGwNdGlSaF1twtBR4na3NyxXzoS4SFBWr1yYnz+4n6/1rsDlZ+7u7QdNrKmcOKaL51G/5DX2K8TnG0uK9ajaL69/TQBe49dEcrX0RqwkcmJHDBcogEhyknZgiUDkmCTzZnvA5fSk3vwFT8ZWvbwYAAA==" ConnectionId="448bb8eb-7c82-41fb-9fe5-d9cd3d5a832b" DisplayName="Get Record 1" sap:VirtualizedContainerService.HintSize="416,340.8" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="1b90ffe2-f109-3a93-9246-7ad34e378981">
       <isactr:ConnectorActivity.FieldObjects>
         <isactr:FieldObject Name="_date" Type="FieldArgument">
           <isactr:FieldObject.Value>
             <InArgument x:TypeArguments="x:String">2026-01-08</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="stocksTicker2" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">AAPL</InArgument>
           </isactr:FieldObject.Value>
         </isactr:FieldObject>
         <isactr:FieldObject Name="stocksTicker" Type="FieldArgument">
