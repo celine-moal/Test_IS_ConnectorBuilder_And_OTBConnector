@@ -2,7 +2,7 @@
   "name": "Test_IS_ConnectorBuilder",
   "projectId": "75fb4182-8e7e-487b-9b41-fa13d3ccd8ca",
   "description": "Processus vierge",
-  "main": "Main.xaml",
+  "main": "Main_ConnectorBuilder_Polygon.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.IntegrationService.Activities": "[1.24.0]",
@@ -10,13 +10,14 @@
     "UiPath.MicrosoftOffice365.Activities": "[3.7.10]",
     "UiPath.System.Activities": "[24.10.8]",
     "UiPath.Testing.Activities": "[24.10.4]",
-    "UiPath.UIAutomation.Activities": "[24.10.17]"
+    "UiPath.UIAutomation.Activities": "[24.10.17]",
+    "UiPath.WebAPI.Activities": "[2.4.0]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.20.0",
-  "projectVersion": "1.0.6",
+  "projectVersion": "1.0.11",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -51,12 +52,6 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "57c21ca9-5f48-433c-8c9f-fd9bdd896a0f",
-      "input": [],
-      "output": []
-    },
-    {
       "filePath": "Test_IS_GitHub.xaml",
       "uniqueId": "6ad527b8-b58f-496a-a57d-bbaabfad6656",
       "input": [],
@@ -71,6 +66,18 @@
     {
       "filePath": "Test_IS_O365_bis.xaml",
       "uniqueId": "8c2a7bcb-1d19-4e02-ae1c-0c755363624d",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main_ConnectorBuilder_Polygon.xaml",
+      "uniqueId": "b592f861-1a19-4d56-be9f-d3be75064869",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Test_IS_PetStore.xaml",
+      "uniqueId": "666a5cfb-8776-4c63-b051-6c9a0cdd0ea3",
       "input": [],
       "output": []
     }

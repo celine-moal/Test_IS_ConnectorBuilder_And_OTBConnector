@@ -1,0 +1,159 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Test_IS_PetStore" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Test_IS_PetStore_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_Pet_Retrieve.Bundle;assembly=C8B6A6E6AE8_Pet_Retr.VNFYo145WOI1BrnFX4mbHsO1" xmlns:uiascb1="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_PetFindByStatus_List.Bundle;assembly=C8B6A6E6AE8_PetFindB.tvLtbd8mID1nQlyf2iDar11" xmlns:uiascb2="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_StoreOrder_Retrieve.Bundle;assembly=C8B6A6E6AE8_StoreOrd.JH3JE1xQVxL11HKWv2ce6IP4" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_StoreOrder_Retrieve.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_StoreOrder_Retrieve.Bundle</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_PetFindByStatus_List.Bundle</x:String>
+      <x:String>UiPath.IntegrationService.Activities.SWEntities.C8B6A6E6AE8_PetFindByStatus_List.Bundle</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>C8B6A6E6AE8_Pet_Retr.VNFYo145WOI1BrnFX4mbHsO1</AssemblyReference>
+      <AssemblyReference>C8B6A6E6AE8_StoreOrd.JH3JE1xQVxL11HKWv2ce6IP4</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>C8B6A6E6AE8_PetFindB.tvLtbd8mID1nQlyf2iDar11</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Test_IS_PetStore" sap:VirtualizedContainerService.HintSize="1200.8000000000002,1104.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uiascb2:StoreOrder_Retrieve" Name="result" />
+      <Variable x:TypeArguments="uiascb1:PetFindByStatus_List[]" Name="resultList" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACq2UTW/bMAyG/4qgs9tmw06+LS66BuuWIEl7GXpgZCbWYkueRLXzjPz3UXac5qPYaScDpEQ9fPnSrbzTWOY+s4ZAG3QybeUCwakCViX2SZn+eE7kxNSBDoFWfocKZSprpEkuE3mrfV1Ccx5Fr5yuSVvD0cmtsGvBOUEFkDCIuRdkxQpFqHMgjFeWTR0raEO4YZ5EzvFX0I5zKbmASU/8YBXsq86ACj428d+QCpvPwDEDxVbi+V1yQDXxc046BE9AH3saEZMRmQqM2G90npw2G3kJM7Z5w+GpycC8gL9g8AQU/AXFW/hdjj79P0h4kNNAx5N83sXZ8gtG4UE7TrTyib99rQ/Xo+sRF2ObGFRk3VdsOKyCJ1tdKSzZOpY9c+VfYcNTY0LOuCjsZ0X6RVOzx/2CbDKtIliNbmDNHHKfkkliA6X+g/lwby8QE6IjMUdlXXRJBqpAbtduQ/0EZcCOeLr6yXj9FbYoW5DtgTRuZqcuzWwZKhO7j2mxajpT6lyyPItO0DvrKqDz47Id7S5md1qB0TpVZLqG0rPguwF27OwrNzEhrCIsx2dOV+AaFnO/YzNQW9jgsfAfP50qv3900Qst+PFB6cOR4+s8uah1p8u/sY+1OxXtnUkl8p6o7hcuHp8ulhzrNjGVN1zzpu1+AVGtBzCbwF1xZh33+R78mKtsWeWs4FwcXadV3OF5MKQrzEqNhh59d61f+yX+pnFp1bY37V8+o3X2ugQAAA==" ConnectionId="e4e10333-0f34-4b99-b403-fe8b6a6e6ae8" DisplayName="Insert Record" sap:VirtualizedContainerService.HintSize="416,268" sap2010:WorkflowViewState.IdRef="ConnectorActivity_3" UiPathActivityTypeId="2b3cbccf-b5c0-33a2-87e9-b96624e1bcb3">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="petId" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32">1</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="status" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">new</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="name" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">bill</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACnWUb2/aMBDGv0rk12lapg5VSLyAFNpsXUFA201TVRlzBQ/HzuwzLUN8952TwGhHxZvo/vge/+4xG9aXoGYuNRq51GBZa8PGwK1Y8KmCKslaPx9jlunC4z6wYbc8B9ZiBWA2YzG7lK5QfP0+Ck5YWaA0mqLZZWSeI8pFaCIL6K2mmsm6CC1SI8xJQMxG8NtLCzPWQushriTeGMHrY4YcF1SWuW+ACzMbcktDMWgP9VvSOvB4VOwXiU9DwP/k1rE3Yv8pu5NhYpIFgbYUMQa7kgKSjkC5kijBJeOHnsbqM73oNjvNXrPTuwjTnkaAVsIKkq7XMwXJYSyOjlUn97f9H6Zx/vlhkDW6Vve/n+fTazdoxNE9WEcK2o3kLPyo3ysCCW0NHi1XcTT0UyXFV1hPzBJ0W3ulaqjgkLWeuXIEdQSuMNrBR5ArhCVmolZmd6UEnryyO+AgtX3cBp845FrAfi20gQ2rZdPBpXA6lyynQaCxpJTCwjs0+YkARTY05L8T98LnZAiyC2UsUEuNe13v5QrIsFJQYlBAtRiK7sgy0hLuo+QfmO06631fkQVHIIwNHk25WABd3Sx9cc8VUQqCB9NfpK6qJwORm/c2qayTGuVzHexVxsl1Yxqs531jc47vi9jmbPuB7dLy5vViSoSVoq41Lw5shpAHRRQfWplzuyZg9ZsccrHkcziE++n8Ld161LiCGdHIHc19yWE7bSfwLC9/TOwhll3oGPyYXSMW1QMNwHsTCpUPt8VOaaWnm/IvIjC54Xru6RaUeQ7P/5q7rgW+JJbpgnJhH7VpMzfy9MpySJUEjXeubKtcOYFX7CojliWb7V8xSNqX2gQAAA==" ConnectionId="e4e10333-0f34-4b99-b403-fe8b6a6e6ae8" DisplayName="Get Record" sap:VirtualizedContainerService.HintSize="416,236.8" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="994e173d-bc28-3049-bdd0-3a7972cd18b4">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="petId" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32">1</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_Pet" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:Pet_Retrieve" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[result]" />
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACo1U0U7bMBT9lcjPIdBpQqgSD7SUka0bpSnsYULIdW5br46d2ddlWdV/33WSsg6ChPrS3ONrn3vOsbfsSoLK3dBo5FKDZf0ty4BbseJzBQ3I+j8eYpbq0uNzYcu+8QJYnznk6B2L2aV0peLVqzI4YWWJ0mgqZ3U52nDlwUW44hhpgDxCE80hEkY7mYOlwsLYaCEVEqOYzaqy2dNKvaTvKfzyklaxPloPcTPD2AjennLrwVa0LnVfAVcmn3BLrMJedcOOprnx2DnOZ4mPEyBA54Mq656NcOKm82heRW/M+Y/0nZxwXCWpRljammAGdiMFJBcC5UaiBJdk30cam7/Ds8Hpxeno9GJ09pLI41g6TAZe5wqSLoxsirr6E9yMcZ6fFellT9+qavFBXnLb68XRPVhHlM57yUn4UbtX6C2ca/BouYqjiZ8rKb5ANTNr0OfaK9U6AA5Zf8GVIwem4EoyD95ypJG7toQUrtH9UjKJkrff4ADaPexC6khhLeDZQnJry1ratHFNnPalAGsQaCwxpbLwDk1xJEBRqA2l+cg98eUSbAlIiAVqafWvWqM+AcVfCgJuSmicomqQlRGPMIuSfyDfd7VZCHg0BWEs5YhocLECGtysfXlfhzzQvZn/JG5NB0UtzZsQdYdsaJQvdAhlV9Aoull9Da6MLTi+7GHbk9378jqsFWoNrKVuuA+seXJgU4QicKf6xMqC24qEbV+CCRdrvoRDEz58/N+F9uSsET0iBnvVn5cctpOLQfdapndwP9SzQ8hX/sXsGrFs3oLg9GhGpXAt6eOYEnEcTjjYYMz10tOEBC/C+3PN3cACX5PswxVhwdU2+Kmberq6BQyVBI13rm5rkj2D3zhQRqxr3XZ/ARk4dxBsBQAA" ConnectionId="e4e10333-0f34-4b99-b403-fe8b6a6e6ae8" DisplayName="List Records" sap:VirtualizedContainerService.HintSize="416,236.8" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="f2009fe3-d1ad-3ef4-bc26-b09730892161">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="status" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">new</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_PetFindByStatus" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb1:PetFindByStatus_List[]">[resultList]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[resultList.Length.ToString]" />
+  </Sequence>
+</Activity>
